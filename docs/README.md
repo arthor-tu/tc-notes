@@ -1,6 +1,6 @@
 ---
 home: true
-actionText: 开发文档 →
-actionLink: /guide/about
+actionText: 我的学习笔记 →
+actionLink: /markdown/基本语法
 footer: MIT Licensed | Copyright © 2023-present Evan You
 ---

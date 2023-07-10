@@ -15,7 +15,7 @@ const rootPath = path.dirname(__dirname);
 const { sideBarTool } = require(path.join(__dirname, './utils/index.js'))
 
 // 需要排除的一些目录
-let unDirIncludes = ['node_modules', 'assets', 'public']
+let unDirIncludes = ['node_modules', 'assets', 'public', 'editing']
 // 只需要处理后缀的文件类型
 let SuffixIncludes = ['md', 'html']
 //使用方法生生成侧边栏
@@ -35,7 +35,20 @@ module.exports = {
   themeConfig: {
     // logo: "/img/logo_gjs.png",
     sidebar,
-    nav: [],
+    nav: [
+      {
+        text: "博客",
+        link: "http://sandbook.cn"
+      },
+      {
+        text: "github",
+        link: "https://github.com/arthor-tu"
+      },
+      // {
+      //   text: "博客",
+      //   link: "http://sandbook.cn"
+      // },
+    ],
     // sidebar: 'auto'
   },
 }
