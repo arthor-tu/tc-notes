@@ -1,6 +1,6 @@
 ---
 home: true
 actionText: 我的学习笔记 →
-actionLink: /markdown/基本语法
+actionLink: /markdown/markdown语法示例
 footer: MIT Licensed | Copyright © 2023-present Evan You
 ---
